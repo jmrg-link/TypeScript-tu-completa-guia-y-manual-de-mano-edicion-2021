@@ -19,10 +19,11 @@
 *   Erroes porque colocamos una mayuscula o minuscula.
 *   Errores porque el IDE o Editor no marco el error con su linter.
 
-Typescript busca tener la misma experiencia de lenguajes como : 
-    *   Java
-    *   C#
-    *   Objetive-C
+**Typescript** busca tener la misma experiencia de lenguajes como :
+
+*   Java
+*   C#
+*   Objetive-C
 
 > **Nota:** Typescript es un superset de javascript.
 > **JS -> ESNext -> Typescript**
