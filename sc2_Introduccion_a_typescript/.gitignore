@@ -1,5 +1,5 @@
-./readme.md
-./.gitignore
+../readme.md
+../.gitignore
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,node,angular,react,vue,webstorm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,node,angular,react,vue,webstorm+all
 
