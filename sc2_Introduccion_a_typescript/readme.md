@@ -48,3 +48,4 @@ console.log(msg)
 *  El fichero tsconfig.json se crea con el comando **tsc --init**
 *  Es un archivo .json permite personalizar la configuracion de typescript en el proyecto que se quiera realizar.
 *  Como recomendacion es aconsejable usar typescript en estricto **"strict": true**
+*  Para hacer que typescript tenga un seguimiento y no tener que realizar tsc <filename.extension> se recomienda utilizar **tsc --watch**
