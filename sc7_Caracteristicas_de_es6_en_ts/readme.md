@@ -11,6 +11,4 @@
     *   Conocer sobre la programación orientada a objetos
     *   Clases
 
-##
 ---
-
