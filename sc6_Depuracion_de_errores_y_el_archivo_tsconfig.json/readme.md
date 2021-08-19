@@ -1,4 +1,4 @@
-## Typescript Seccion 6 : Objetos y tipos personalizados en TypeScript
+## Typescript Seccion 6 : Depuración de Errores y el archivo tsconfig.json
 ---
 *   Este apartado se enfoca en la depuración de errores y comprender el archivo de configuración de TypeScript (el tsconfig.json).
     *   Aprenderemos el ¿por qué siempre compila a JavaScript?
