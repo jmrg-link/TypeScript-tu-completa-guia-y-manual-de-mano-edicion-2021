@@ -16,25 +16,19 @@ var bumblebee = {
     }
 };
 // Villanos debe de ser un arreglo de objetos personalizados
-var villanos = [{}];
-false;
-{
-    nombre: "Erik Magnus Lehnsherr",
-        edad;
-    49,
-        mutante;
-    true;
-}
-{
-    nombre: "James Logan",
-        edad;
-    undefined,
-        mutante;
-    true;
-}
-;
-// Multiples tipos
-// cree dos tipos, uno para charles y otro para apocalipsis
+var villanos = [{
+        nombre: "Lex Luttor",
+        edad: 53,
+        mutante: false
+    }, {
+        nombre: "Erik Magnus Lehnsherr",
+        edad: 49,
+        mutante: true
+    }, {
+        nombre: "James Logan",
+        edad: 69,
+        mutante: true
+    }];
 var charles = {
     poder: "psiquico",
     estatura: 1.78

@@ -20,6 +20,6 @@
     //     }
     // }
 
-    console.log(flash.getName());
+    //console.log(flash.getName());
 
 })()
