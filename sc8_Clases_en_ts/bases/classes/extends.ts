@@ -4,7 +4,7 @@
             public name: string,
             public realName: string,
         ){
-            console.log('Contructor avenger llamado');
+            //console.log('Contructor avenger llamado');
         }
 
         private getFullName(){
@@ -19,7 +19,7 @@
             public isMutant:boolean
         ){
            super(name,realName)
-           console.log('constructor xmen llamado');
+           //console.log('constructor xmen llamado');
         }
         get fullName(){
             return `${this.name} - ${this.realName}`
