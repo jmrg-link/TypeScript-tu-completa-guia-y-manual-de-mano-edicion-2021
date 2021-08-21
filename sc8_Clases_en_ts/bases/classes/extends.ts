@@ -1,11 +1,12 @@
-(()=>{
+(() => {
     class Avenger {
         constructor(
-            public name    ?: string,
-            public realName?: string
+            public name: string,
+            public realName: string,
         ){
-            console.log('Constructor Avenger Llamado')
+            console.log('Contructor avenger llamado');
         }
+
         private getFullName(){
             return `${this.name} ${this.realName}`
         }
@@ -15,20 +16,17 @@
         constructor(
             name:string,
             realName:string,
-            public isMutant:boolean = true
-            
+            public isMutant:boolean
         ){
-            super(name,realName)
-            console.log('Constructor Xmen llamado...');
+           super(name,realName)
+           console.log('constructor xmen llamado');
         }
         getFullNameDesdeXmen(){
-                console.log(super.getFullName());
+            console.log(super.getFullName());
         }
     }
-
-    const wolverine = new Xmen('Wolverine','logan')
+    const wolverine = new Xmen('wolverine','logan',true)
     console.log(wolverine);
-    wolverine.getFullNameDesdeXmen();
-    
+    wolverine.getFullNameDesdeXmen()
     
 })()

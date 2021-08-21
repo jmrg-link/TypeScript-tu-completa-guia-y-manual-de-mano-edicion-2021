@@ -20,24 +20,23 @@
         constructor(name, realName) {
             this.name = name;
             this.realName = realName;
-            console.log('Constructor Avenger Llamado');
+            console.log('Contructor avenger llamado');
         }
         getFullName() {
             return `${this.name} ${this.realName}`;
         }
     }
     class Xmen extends Avenger {
-        constructor(name, realName, isMutant = true) {
+        constructor(name, realName, isMutant) {
             super(name, realName);
             this.isMutant = isMutant;
-            console.log('Constructor Xmen llamado...');
+            console.log('constructor xmen llamado');
         }
         getFullNameDesdeXmen() {
             console.log(super.getFullName());
         }
     }
-    const wolverine = new Xmen('Wolverine', 'logan');
+    const wolverine = new Xmen('wolverine', 'logan', true);
     console.log(wolverine);
     wolverine.getFullNameDesdeXmen();
 })();
-//# sourceMappingURL=main.js.map
