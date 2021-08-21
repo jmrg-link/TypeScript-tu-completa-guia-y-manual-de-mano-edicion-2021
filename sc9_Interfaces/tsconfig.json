@@ -71,5 +71,5 @@
   },
   "include": [
     "./bases/interfaces"
-  ]
+, "app 9.ts"  ]
 }

@@ -18,6 +18,13 @@
     };
 })();
 (() => {
+    class Mutante {
+        mutantPower() {
+            return this.name + '' + this.realName;
+        }
+    }
+});
+(() => {
     const client = {
         name: "Jesus",
         age: 37,
@@ -43,6 +50,12 @@
         getFullAddress(id) {
             return this.address.city;
         },
+    };
+})();
+(() => {
+    let addNumbersFucntions;
+    addNumbersFucntions = (a, b) => {
+        return 10;
     };
 })();
 //# sourceMappingURL=main.js.map
