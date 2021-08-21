@@ -24,11 +24,11 @@
     // console.log(wolverine.salvarMundo());
     // console.log(magneto.conquistarMundo());
 
-    const printName = (character:Mutante) => {
-        console.log(character.realName);
-    }
-    printName(wolverine)
-    printName(magneto)
+    // const printName = (character:Mutante) => {
+    //     console.log(character.realName);
+    // }
+    //printName(wolverine)
+    //printName(magneto)
     
     
 
